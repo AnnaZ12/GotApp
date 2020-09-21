@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/AnnaZ12/GotApp/precache-manifest.f7e725a14b064afc81d16170363c00d9.js"
+  "/GotApp/precache-manifest.8b24db68491b720222b0d7c5225487e3.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/AnnaZ12/GotApp/index.html", {
+workbox.routing.registerNavigationRoute("/GotApp/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
